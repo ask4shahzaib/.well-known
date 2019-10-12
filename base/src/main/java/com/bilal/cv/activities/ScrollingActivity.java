@@ -1,4 +1,4 @@
-package com.ahmad.cv.activities;
+package com.bilal.cv.activities;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -6,26 +6,26 @@ import android.graphics.PorterDuff;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import com.google.android.material.appbar.CollapsingToolbarLayout;
-import com.google.android.material.tabs.TabLayout;
-import com.rhexgomez.typer.roboto.TyperRoboto;
-import com.ahmad.cv.adapters.ViewPagerAdapter;
-import com.ahmad.cv.fragments.AboutFragment;
-import com.ahmad.cv.fragments.EducationFragment;
-import com.ahmad.cv.fragments.ProfessionFragment;
-import com.squareup.picasso.Picasso;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.ImageView;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.ViewPager;
 
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.ImageView;
-import java.util.Objects;
-
+import com.bilal.cv.adapters.ViewPagerAdapter;
 import com.bilal.cv.base.R;
+import com.bilal.cv.fragments.AboutFragment;
+import com.bilal.cv.fragments.EducationFragment;
+import com.bilal.cv.fragments.ProfessionFragment;
+import com.google.android.material.appbar.CollapsingToolbarLayout;
+import com.google.android.material.tabs.TabLayout;
+import com.rhexgomez.typer.roboto.TyperRoboto;
+import com.squareup.picasso.Picasso;
+
+import java.util.Objects;
 public class ScrollingActivity extends AppCompatActivity {
     TabLayout tabLayout;
     @RequiresApi(api = Build.VERSION_CODES.P)
@@ -51,7 +51,6 @@ public class ScrollingActivity extends AppCompatActivity {
         mViewPager.setAdapter(mViewPagerAdapter);
         tabLayout.setupWithViewPager(mViewPager);
         setupTabIcons();
-
         // ATTENTION: This was auto-generated to handle app links.
         Intent appLinkIntent = getIntent();
         String appLinkAction = appLinkIntent.getAction();
@@ -104,7 +103,7 @@ public class ScrollingActivity extends AppCompatActivity {
             Intent i=new Intent(android.content.Intent.ACTION_SEND);
             i.setType("text/plain");
             i.putExtra(android.content.Intent.EXTRA_SUBJECT,"Click the following link");
-            i.putExtra(android.content.Intent.EXTRA_TEXT, "https://shahwaiz90.github.io/resume/");
+            i.putExtra(android.content.Intent.EXTRA_TEXT, "https://billztee7.github.io/ScrollingActivity/");
             startActivity(Intent.createChooser(i,"Share via"));
             return true;
         }

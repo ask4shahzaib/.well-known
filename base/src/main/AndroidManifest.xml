@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.ahmad.cv.activities.ScrollingActivity"
+            android:name="com.bilal.cv.activities.ScrollingActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -23,8 +23,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
 
@@ -33,19 +31,8 @@
 
                 <data
                     android:scheme="https"
-                    android:host="shahwaiz90.github.io"
-                    android:pathPattern="/resume/" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-
-                <data
-                    android:scheme="http"
-                    android:host="shahwaiz90.github.io"
-                    android:pathPattern="/resume" />
+                    android:host="billztee7.github.io"
+                    android:pathPrefix="/ScrollingActivity" />
             </intent-filter>
         </activity>
         <meta-data

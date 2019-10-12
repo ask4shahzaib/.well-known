@@ -1,4 +1,4 @@
-package com.ahmad.cv.adapters;
+package com.bilal.cv.adapters;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,8 +10,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ahmad.cv.model.DemoItem;
 import com.bilal.cv.base.R;
+import com.bilal.cv.model.DemoItem;
 
 import java.util.List;
 public class EducationAdapter extends RecyclerView.Adapter {

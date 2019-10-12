@@ -1,4 +1,5 @@
-package com.ahmad.cv.adapters;
+package com.bilal.cv.adapters;
+
 import android.app.Activity;
 import android.content.ClipData;
 import android.content.Context;
@@ -12,13 +13,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ahmad.cv.model.DemoItem;
 import com.bilal.cv.base.R;
+import com.bilal.cv.model.DemoItem;
 import com.squareup.picasso.Picasso;
+
 import java.util.List;
+
 import static android.content.Context.CLIPBOARD_SERVICE;
 
 public class AboutAdapter extends RecyclerView.Adapter {
@@ -108,6 +112,7 @@ public class AboutAdapter extends RecyclerView.Adapter {
             Intent  intent = new Intent(Intent.ACTION_VIEW, Uri.parse(context.getString(R.string.Github_IdLink)));
             context.startActivity(intent);
         });
+
         demoItemHolder.stackOverFlow.setOnClickListener(view -> {
            Intent  intent = new Intent(Intent.ACTION_VIEW, Uri.parse(context.getString(R.string.stackOverFlow_IdLink)));
             context.startActivity(intent);
@@ -160,6 +165,7 @@ public class AboutAdapter extends RecyclerView.Adapter {
             clipboard.setPrimaryClip(clip);
             Toast.makeText(context, "Copied to Clipboard!", Toast.LENGTH_SHORT).show();
         });
+
         demoItemHolder.stackoverflowLinkCopy.setOnClickListener(view -> {
             android.content.ClipboardManager clipboard = (android.content.ClipboardManager) context.getSystemService(CLIPBOARD_SERVICE);
             ClipData clip = ClipData.newPlainText("Text Label", context.getString(R.string.StackOverFlow_UserName));

@@ -1,16 +1,19 @@
-package com.ahmad.cv.fragments;
+package com.bilal.cv.fragments;
+
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ahmad.cv.model.DemoItem;
-import com.ahmad.cv.adapters.AboutAdapter;
+import com.bilal.cv.adapters.AboutAdapter;
 import com.bilal.cv.base.R;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+import com.bilal.cv.model.DemoItem;
+
 import java.util.ArrayList;
 import java.util.List;
 

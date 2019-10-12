@@ -16,7 +16,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.ahmad.cv.model.DemoItem;
-import com.ahmad.cv.base.R;
+import com.bilal.cv.base.R;
 import com.squareup.picasso.Picasso;
 import java.util.List;
 import static android.content.Context.CLIPBOARD_SERVICE;

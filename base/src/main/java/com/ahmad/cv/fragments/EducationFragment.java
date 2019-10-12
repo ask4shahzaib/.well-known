@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.ahmad.cv.model.DemoItem;
 import com.ahmad.cv.adapters.EducationAdapter;
-import com.ahmad.cv.base.R;
+import com.bilal.cv.base.R;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.ahmad.cv.model.DemoItem;
-import com.ahmad.cv.base.R;
+import com.bilal.cv.base.R;
 import java.util.List;
 public class ProfessionAdapter extends RecyclerView.Adapter {
     private List<DemoItem> demoItems;

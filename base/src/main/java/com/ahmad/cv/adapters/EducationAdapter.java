@@ -2,19 +2,16 @@ package com.ahmad.cv.adapters;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.ahmad.cv.model.DemoItem;
-import com.ahmad.cv.base.R;
+import com.bilal.cv.base.R;
 
 import java.util.List;
 public class EducationAdapter extends RecyclerView.Adapter {

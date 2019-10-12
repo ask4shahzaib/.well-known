@@ -1,4 +1,5 @@
 package com.ahmad.cv.activities;
+
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
@@ -9,7 +10,6 @@ import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.tabs.TabLayout;
 import com.rhexgomez.typer.roboto.TyperRoboto;
 import com.ahmad.cv.adapters.ViewPagerAdapter;
-import com.ahmad.cv.base.R;
 import com.ahmad.cv.fragments.AboutFragment;
 import com.ahmad.cv.fragments.EducationFragment;
 import com.ahmad.cv.fragments.ProfessionFragment;
@@ -24,6 +24,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import java.util.Objects;
+
+import com.bilal.cv.base.R;
 public class ScrollingActivity extends AppCompatActivity {
     TabLayout tabLayout;
     @RequiresApi(api = Build.VERSION_CODES.P)

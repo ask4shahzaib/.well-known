@@ -20,7 +20,6 @@ import java.util.List;
 public class EducationAdapter extends RecyclerView.Adapter {
     private List<DemoItem> demoItems;
     private Context        context;
-    private ImageView education_publication_link;
 
     public EducationAdapter(List<DemoItem> demoItems, Context context) {
         this.demoItems   = demoItems;
@@ -32,14 +31,6 @@ public class EducationAdapter extends RecyclerView.Adapter {
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(context);
         View           row      = inflater.inflate(R.layout.education, parent, false);
-        education_publication_link  = row.findViewById(R.id.education_publication_link);
-        education_publication_link.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(context.getString(R.string.ieee_link)));
-                    context.startActivity(intent);
-                }
-        });
         return new DemoItemHolder(row);
     }
 

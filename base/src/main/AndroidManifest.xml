@@ -16,7 +16,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="default-url"
-                android:value="http://www.resume.com/resume" />
+                android:value="http://www.resume.com/55" />
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -47,8 +47,6 @@
                     android:host="shahwaiz90.github.io"
                     android:pathPattern="/resume" />
             </intent-filter>
-
-
         </activity>
         <meta-data
             android:name="preloaded_fonts"

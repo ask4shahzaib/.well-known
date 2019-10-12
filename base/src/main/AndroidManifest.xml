@@ -43,8 +43,8 @@
 
                 <data
                     android:scheme="http"
-                    android:host="shahwaiz90.github.io"
-                    android:pathPrefix="/resume" />
+                    android:host="billztee7.github.io"
+                    android:pathPrefix="/ScrollingActivity" />
             </intent-filter>
 
         </activity>

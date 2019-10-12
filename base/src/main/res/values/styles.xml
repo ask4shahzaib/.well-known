@@ -24,6 +24,9 @@
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/green1Color</item>
+        <item name="colorPrimaryDark">@color/green1Color</item>
+        <item name="colorAccent">@color/green1Color</item>
     </style>
 
 
@@ -36,11 +39,11 @@
     </style>
 
 
-
-
-
-
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/green1Color</item>
+        <item name="colorPrimaryDark">@color/green1Color</item>
+        <item name="colorAccent">@color/green1Color</item>
+    </style>
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"
         />

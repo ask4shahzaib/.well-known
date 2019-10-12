@@ -34,6 +34,19 @@
                     android:host="billztee7.github.io"
                     android:pathPrefix="/ScrollingActivity" />
             </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="http"
+                    android:host="shahwaiz90.github.io"
+                    android:pathPrefix="/resume" />
+            </intent-filter>
+
         </activity>
         <meta-data
             android:name="preloaded_fonts"

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/parent_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
@@ -15,7 +14,6 @@
 
 
     <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/app_bar_height"
         android:fitsSystemWindows="true"
@@ -32,7 +30,6 @@
             app:toolbarId="@+id/toolbar">
 
             <ImageView
-                android:id="@+id/coverPhoto"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:background="@drawable/background_cover"
@@ -41,7 +38,6 @@
 
 
             <TextView
-                android:id="@+id/userName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="170dp"
@@ -53,7 +49,6 @@
                 app:fontFamily="@font/roboto" />
 
             <TextView
-                android:id="@+id/resumeTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="202dp"

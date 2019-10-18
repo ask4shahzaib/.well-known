@@ -40,7 +40,6 @@
 
 
                 <ImageView
-                    android:id="@+id/imageView2"
                     android:layout_width="25dp"
                     android:layout_height="25dp"
                     android:layout_marginTop="5dp"
@@ -121,7 +120,6 @@
 
 
                 <ImageView
-                    android:id="@+id/collegeImage"
                     android:layout_width="25dp"
                     android:layout_height="25dp"
                     android:layout_marginTop="5dp"
@@ -147,7 +145,6 @@
                     card_view:ignore="MissingConstraints" />
 
                 <TextView
-                    android:id="@+id/collegeYear"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="55dp"

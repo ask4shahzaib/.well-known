@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bilal.cv.base.R;
+import com.bilal.cv.R;
 import com.bilal.cv.model.DemoItem;
 import com.squareup.picasso.Picasso;
 

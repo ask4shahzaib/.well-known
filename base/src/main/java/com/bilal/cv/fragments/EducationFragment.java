@@ -10,8 +10,8 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bilal.cv.R;
 import com.bilal.cv.adapters.EducationAdapter;
-import com.bilal.cv.base.R;
 import com.bilal.cv.model.DemoItem;
 
 import java.util.ArrayList;

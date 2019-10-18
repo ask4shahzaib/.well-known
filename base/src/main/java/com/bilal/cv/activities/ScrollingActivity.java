@@ -15,8 +15,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.ViewPager;
 
+import com.bilal.cv.R;
 import com.bilal.cv.adapters.ViewPagerAdapter;
-import com.bilal.cv.base.R;
 import com.bilal.cv.fragments.AboutFragment;
 import com.bilal.cv.fragments.EducationFragment;
 import com.bilal.cv.fragments.ProfessionFragment;

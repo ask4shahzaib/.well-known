@@ -1,26 +1,27 @@
 <resources>
-    <string name="app_name">Bilal\'s CV</string>
+    <string name="app_name">Shah Zaib\'s CV</string>
     <string name="action_settings">Settings</string>
-    <string name="user_name">Muhammad Bilal</string>
-    <string name="resume_title">Student | Junior Software Engineer</string>
+    <string name="user_name">Shah Zaib Ali</string>
+    <string name="resume_title">Student | Sports Enthusiast</string>
 
     <string name="contact_information">Contact Information</string>
-    <string name="email">bilaltahir3636@gmail.com</string>
+    <string name="email">shahzaib00ali@gmail.com</string>
     <string name="Address">Lahore, Pakistan</string>
     <string name="AboutMe_Title">About Me</string>
     <string name="Question1">Career Goal</string>
     <string name="Question2">Ownership</string>
     <string name="experience">Experience</string>
     <string name="hands_on_skills">Skills</string>
-    <string name="phoneNumber">+923458181333</string>
-    <string name="Linkedin_IdLink">https://www.linkedin.com/in/billztee7/</string>
-    <string name="Linkedin_UserName">billztee7</string>
-    <string name="Github_UserName">billztee7</string>
-    <string name="Github_IdLink">https://github.com/billztee7</string>
-    <string name="StackOverFlow_UserName">muhammad-bilal-tahir</string>
-    <string name="stackOverFlow_IdLink">https://stackoverflow.com/users/8597364/muhammad-bilal-tahir</string>
+    <string name="phoneNumber">+923214875493</string>
+    <string name="Linkedin_IdLink">https://www.linkedin.com/in/ask4shahzaib</string>
+    <string name="Linkedin_UserName">ask4shahzaib</string>
+    <string name="Github_UserName">ask4shahzaib</string>
+    <string name="Github_IdLink">https://github.com/ask4shahzaib</string>
+    <string name="StackOverFlow_UserName">ask4shahzaib</string>
+    <string name="stackOverFlow_IdLink">https://stackoverflow.com/users/12065880/shah-zaib-ali-dogar</string>
     <string name="education">Education</string>
-    <string name="answer">Work give us meaning, so I\'d to work in a optimistic environment. My ultimate goal is to give back to the society using my technological skills.</string>
+    <string name="worked_on_title">Worked On:</string>
+    <string name="answer">Work give us meaning, so I like to work in a optimistic environment. My ultimate goal is to give back to the society using my technological skills.</string>
     <string name="answer1">I\'m accountable at my work. My priority is to make sure that whatever I develop or contribute into; should be of the highest quality.
        </string>
 
@@ -29,15 +30,9 @@
     <string name="experience_time2">February 2018 (~1 Month)</string>
     <string name="experience_description1">\u2713 Worked in the Infrastructure Department. \n\u2713 PC Management Team member. \n\u2713 Food Department management member. </string>
 
-    <string name="worked_on_title">Worked On:</string>
-    <string name="company_name3">CoalDev Inc.</string>
-    <string name="experience_time3">August 2017 - June 2018 (~1 years)</string>
-    <string name="experience_title2">Junior Software Engineer</string>
-    <string name="experience_description2">\u2713 Front-end web development. \n\u2713 Back-end related tasks using Python. \n\u2713 Javascript library jQuery. \n\u2713 Website deployment. \n\u2713 Using Git and GitHub.</string>
 
-
-    <string name="project_title">XML Validator App</string>
-    <string name="project_description">\u2713 University Project which validates XML code using Stack.
+    <string name="project_title">Compression via Huffman\'s Encoding</string>
+    <string name="project_description">\u2713 University Project which compresses the data in textual form using Huffman\'s Algorithm.
     </string>
 
     <string name="todo">TODO</string>
@@ -49,7 +44,7 @@
     <string name="stack_overflow_title">Stack Overflow</string>
     <string name="github_title">Github</string>
     <string name="intermediate_title">FSc. (Pre-Engineering)</string>
-    <string name="college_title">PST Post Graduate College</string>
+    <string name="college_title">Punjab College Pakpattan</string>
     <string name="graduation_title">Bachelors of Science in CS (BSCS) </string>
     <string name="university_title">National University College of Computer and Emerging Sciences</string>
     <string name="college_year">(2015 – 2017)</string>
@@ -58,13 +53,11 @@
     <string name="skill_title_1">Android</string>
     <string name="skill_title_2">Java</string>
     <string name="skill_title_3">Web Development</string>
-    <string name="skill_title_4">Javascript</string>
     <string name="skill_title_5">Python</string>
     <string name="projects_title">Projects</string>
     <string name="why_i_did_choose_above_title_0">Why above:</string>
     <string name="why_i_did_choose_work_3">"\u2713" Client based company, so considering the requirements from clients and keeping in point latest technology at that time I used above technology stack. </string>
     <string name="skill_title_6">C++</string>
-    <string name="githubCopyLink">https://github.com/billztee7/XML-Validator</string>
 
 
 </resources>

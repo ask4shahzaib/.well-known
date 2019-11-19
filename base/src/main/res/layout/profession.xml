@@ -141,40 +141,6 @@
                     android:isIndicator="true"
                     android:numStars="5"
                     android:progressTint="@color/averageColor"
-                    android:rating="5"
-                    android:scaleX="0.8"
-                    android:scaleY="0.8"
-                    android:secondaryProgressTint="@android:color/transparent"
-
-                    />
-
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginEnd="0dp"
-                    android:gravity="left|center"
-                    android:text="@string/skill_title_4"
-                    android:textSize="16sp"
-                    app:fontFamily="@font/roboto"
-                    card_view:ignore="RtlHardcoded" />
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <RatingBar
-                    style="?android:attr/ratingBarStyleIndicator"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:layout_alignParentEnd="true"
-                    android:isIndicator="true"
-                    android:numStars="5"
-                    android:progressTint="@color/averageColor"
                     android:rating="4"
                     android:scaleX="0.8"
                     android:scaleY="0.8"
@@ -373,117 +339,6 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginEnd="15dp"
-                android:layout_marginBottom="15dp">
-
-                <TextView
-                    android:id="@+id/ExperienceTitle2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/experience_title2"
-                    android:textColor="@color/blackColor"
-                    android:textSize="16sp"
-                    android:layout_marginStart="40dp"
-                    app:fontFamily="@font/roboto"
-                    app:layout_constraintStart_toStartOf="parent"
-                    card_view:ignore="MissingConstraints" />
-
-                <TextView
-                    android:id="@+id/companyName2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/company_name3"
-                    android:textSize="13sp"
-                    android:layout_marginStart="40dp"
-                    app:fontFamily="@font/roboto"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/ExperienceTitle2"
-                    card_view:ignore="MissingConstraints" />
-
-                <TextView
-                    android:id="@+id/ExperienceTime2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/experience_time3"
-                    android:textSize="13sp"
-                    android:layout_marginStart="40dp"
-                    app:fontFamily="@font/roboto"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/companyName2" />
-
-
-                <TextView
-                    android:id="@+id/workedOnTitle2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/worked_on_title"
-                    android:textColor="@color/blackColor"
-                    android:textSize="16sp"
-                    app:fontFamily="@font/roboto"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginStart="40dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/ExperienceTime2"
-                    card_view:ignore="MissingConstraints" />
-
-                <TextView
-                    android:id="@+id/ExperienceDescription2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/experience_description2"
-                    android:textSize="14sp"
-                    app:fontFamily="@font/roboto"
-                    android:layout_marginStart="40dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/workedOnTitle2"
-                    card_view:ignore="MissingConstraints" />
-
-
-                <TextView
-                    android:id="@+id/WhyChooseAboveFeature2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/why_i_did_choose_above_title_0"
-                    android:textColor="@color/blackColor"
-                    android:textSize="16sp"
-                    android:layout_marginTop="10dp"
-                    app:fontFamily="@font/roboto"
-                    android:layout_marginStart="40dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/ExperienceDescription2"
-                    card_view:ignore="MissingConstraints" />
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/why_i_did_choose_work_3"
-                    android:textSize="14sp"
-                    app:fontFamily="@font/roboto"
-                    android:layout_marginStart="40dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/WhyChooseAboveFeature2"
-                    card_view:ignore="MissingConstraints" />
-
-                <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:layout_marginTop="5dp"
-                    android:contentDescription="@string/todo"
-                    android:src="@drawable/mystery"
-                    app:layout_constraintBottom_toBottomOf="@+id/ExperienceTime2"
-                    app:layout_constraintEnd_toStartOf="@+id/ExperienceTitle2"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0" />
-
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
 
         </LinearLayout>
 
@@ -548,7 +403,7 @@
 
                 <TextView
                     android:id="@+id/textView"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
@@ -556,6 +411,7 @@
 
                     android:textSize="14sp"
                     app:fontFamily="@font/roboto"
+                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/projectName"
                     card_view:ignore="MissingConstraints" />

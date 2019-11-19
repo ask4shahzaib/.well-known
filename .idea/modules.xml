@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Personal-Resume.iml" filepath="$PROJECT_DIR$/Personal-Resume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Personal-Resume2.iml" filepath="$PROJECT_DIR$/Personal-Resume2.iml" />
       <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
       <module fileurl="file://$PROJECT_DIR$/installed/installed.iml" filepath="$PROJECT_DIR$/installed/installed.iml" />
       <module fileurl="file://$PROJECT_DIR$/instant/instant.iml" filepath="$PROJECT_DIR$/instant/instant.iml" />
